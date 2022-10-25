@@ -1,0 +1,282 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #996070;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin: 47px 0 163px 42px;
+}
+
+.header-link {
+    padding-right: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+
+
+}
+
+.button-sign-up {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.button-sign-up:hover {
+    background-color: aqua;
+    opacity: .5;
+}
+
+.button-sign-up:active {
+    opacity: .8;
+    background-color: goldenrod;
+}
+
+.logo-img {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+p:hover {
+    color:aqua
+}
+
+
+section {
+    
+    display: inline-block;
+    margin-left: 85px;
+    
+}
+
+.button-learn-more {
+    background: #665AE1;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 6px;
+    width: 150px;
+    height: 51px;
+}
+
+.button-learn-more:hover {
+    background-color:#161A49;
+    opacity: .5;
+}
+
+.button-learn-more:active {
+    background: #161A49;
+    opacity: 1;
+}
+    
+
+
+@media screen and (max-width : 1390px) {
+
+    header {
+
+        margin: 47px 0 45px 42px;
+    }
+    
+    
+    .logo-img { 
+ 
+     width: 450.18px;
+     height: 350px;
+     margin-left: 50px;
+     display: inline-block;
+ }
+ 
+ 
+ 
+ h1 {
+ 
+     font-weight: 700;
+     font-size: 29px;
+     line-height: 52px;
+     width: 300px;
+     height: 60px;
+ }
+ 
+ p { 
+     width: 270px;
+     margin-top: 50px;
+ }
+}
+
+
+
+@media screen and (max-width : 825px) {
+
+    header {
+        margin: 47px 0 42px 100px;
+    }
+
+    main {
+        padding: 0 42px 0 50px;
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        width: 600px;
+    }
+
+    .logo-img {
+        margin-left: 121px;
+        width: 312px;
+        height: 288px;
+        display: block;
+    }
+
+    p{
+        width: 600px;
+        line-height: 45px;
+
+    }
+
+}
+
+@media screen and (max-width : 545px) {
+
+    .header-link {
+        display: none;
+    }
+
+    main {
+        padding: 0 60px;
+    }
+
+    .logo-img {
+
+        margin-left: 45px;
+    }
+
+    section {
+        margin-left: 14px;
+        display: block;
+        text-align: center;
+
+    }
+
+    h1 {
+        width: 361px;
+        font-size: 50px;
+        line-height: 37px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    p {
+        width: 360px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        line-height: 29px;
+        margin: inherit;
+        padding : 20px;
+
+    }
+
+    header {
+        margin: 10px 210px;
+    }
+
+    .button-learn-more {
+        margin-right: 0px;
+    }
+}
+
+    @media screen and (max-width : 415px) {
+
+
+        header {
+            margin: 10px 128px;
+
+        }
+
+        section {
+
+            margin-left: 2px;
+        }
+        main {
+            padding: 0 20px;
+            margin: 0;
+
+        }
+
+        .logo-img {
+            width: 290px;
+            height: 180px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 5px;
+        }
+
+        p {
+            width: 345px;
+            margin-top: 40px;
+            margin-bottom: 5px;
+            line-height: 35px;
+            font-size: 28px;
+        }
+    }
+
+
+
+
+
